@@ -1,0 +1,46 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "username": "",
+      "Birthdate": "",
+      "age": "",
+      "email": "",
+      "valid": "",
+      "password": "",
+      "id": 2
+    },
+    {
+      "username": "",
+      "Birthdate": "",
+      "age": "",
+      "email": "",
+      "valid": "",
+      "password": "",
+      "id": 3
+    },
+    {
+      "username": "12312",
+      "Birthdate": "1111",
+      "age": "22",
+      "email": "2131@naver.com",
+      "valid": "",
+      "password": "123",
+      "id": 4
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
