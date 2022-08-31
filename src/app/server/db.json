@@ -33,6 +33,16 @@
       "id": 4
     }
   ],
+  "UserInfo":[
+    {
+      "username": "1",
+      "Birthdate": "1",
+      "age": "1",
+      "email": "1",
+      "valid": "1",
+      "password": "1"
+    }
+  ],
   "comments": [
     {
       "id": 1,
@@ -43,4 +53,5 @@
   "profile": {
     "name": "typicode"
   }
+  
 }

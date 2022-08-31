@@ -1,15 +1,47 @@
 {
-    "posts": [
-      { "id": 1, "title": "json-server", "author": "typicode" }
-    ],
-    "comments": [
-      { "id": 1, "body": "some comment", "postId": 1 }
-    ],
-    "profile": [{ "name": "typicode" }
-],
-"UserInfo":[
+  "posts": [
     {
-        
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "username": "11",
+      "Birthdate": "11",
+      "age": "11",
+      "email": "11",
+      "password": "11",
+      "id": 2
     }
-]
-  }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": [
+    {
+      "name": "typicode"
+    }
+  ],
+  "UserInfo": [
+    {
+      "username": "11",
+      "Birthdate": "11",
+      "age": "11",
+      "email": "11",
+      "password": "11",
+      "id": 2
+    },
+    {
+      "username": "11",
+      "Birthdate": "11",
+      "age": "11",
+      "email": "11",
+      "password": "11",
+      "id": 3
+    }
+  ]
+}

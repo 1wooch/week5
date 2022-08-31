@@ -21,7 +21,7 @@ export class SingupComponent implements OnInit {
       Birthdate:[''],
       email:[''],
       password:[''],
-      Valid:['']
+      //Valid:['']
 
     })
   }
@@ -31,7 +31,7 @@ export class SingupComponent implements OnInit {
     this.userModelObj.Birthdate=this.formValue.value.Birthdate;
     this.userModelObj.age=this.formValue.value.age;
     this.userModelObj.email=this.formValue.value.email;
-    this.userModelObj.valid=this.formValue.value.Valid;
+    //this.userModelObj.valid=this.formValue.value.Valid;
     alert(this.formValue.value.username);
     this.api.postUser(this.userModelObj)
     .subscribe(res=>{

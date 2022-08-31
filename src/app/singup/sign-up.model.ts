@@ -3,6 +3,6 @@ export class UserModel{
     Birthdate:string='';
     age:string='';
     email:string='';
-    valid:boolean=true;
+   // valid:boolean=true;
     password:string='';
 }
