@@ -28,6 +28,7 @@ export class UserDashboardComponent implements OnInit {
   getAllUser(){
     this.api.getUser().subscribe(res=>{
       this.userData=res;
+      console.log(res);
     })
   }
 
